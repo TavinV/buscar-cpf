@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    width: 100vw;
+    padding: 10px;
+    margin-bottom: 60px;
+    background-color: #404E7C;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#barra-busca {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #404E7C;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+
+#botao-buscar {
+    padding: 10px 20px;
+    background-color: #404E7C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#botao-buscar:hover {
+    background-color: #323e6a;
+}
+
+.previous-searches {
+    margin-bottom: 20px;
+}
+
+.previous-searches h2 {
+    color: #404E7C;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#historico {
+    list-style: none;
+    max-height: 200px;
+    overflow-y: scroll;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#historico > li {
+    margin-bottom: 8px;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+#historico > li:last-child {
+    border-bottom: none;
+}
+
+.player-info {
+    margin-top: 20px;
+}
+
+.player-info h2 {
+    color: #404E7C;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#player-data {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#player-data p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#player-data p strong {
+    color: #404E7C;
+}

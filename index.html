@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busca de Jogadores</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Busca de Jogadores</h1>
+    </header>
+    <div class="container">
+      <div class="search-section">
+        <input
+          autocomplete="off"
+          type="text"
+          id="barra-busca"
+          placeholder="Digite o CPF do jogador..."
+        />
+        <button id="botao-buscar">Buscar</button>
+      </div>
+
+      <div class="previous-searches">
+        <h2>Pesquisas Anteriores</h2>
+        <ul id="historico">
+          <!-- Resultados de pesquisas anteriores vão aparecer aqui -->
+        </ul>
+        <div class="player-info">
+          <h2>Informações do Jogador</h2>
+          <div id="player-data">
+            <!-- As informações do jogador buscado serão exibidas aqui -->
+            <p><strong>Nome:</strong> <span id="nome"></span></p>
+            <p><strong>Altura:</strong> <span id="altura"></span></p>
+            <p><strong>Idade:</strong> <span id="idade"></span></p>
+            <p><strong>Peso:</strong> <span id="peso"></span></p>
+            <p><strong>Posição:</strong> <span id="posicao"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
